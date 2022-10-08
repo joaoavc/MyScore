@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyScore</string>
+    <string name="register">Registo</string>
+    <string name="new_game">Novo Jogo</string>
+    <string name="location">Local</string>
+    <string name="time_str">Tempo</string>
+    <string name="help">Ajuda</string>
+    <string name="settings">Definições</string>
+    <string name="historic">Histórico</string>
+    <string name="password">Palvara-passe</string>
+    <string name="not_member">Não tem uma conta? Inscreva-se</string>
+    <string name="member">Já tem uma conta? Entre</string>
+    <string name="how_start_stop">Como começar e acabar um jogo?</string>
+    <string name="how_previous_games">Como ver jogos antigos?</string>
+    <string name="game">Jogo</string>
+    <string name="how_premium_version">Versão premium</string>
+    <string name="add_goal">+ Golo</string>
+    <string name="sub_goal">- Golo</string>
+    <string name="no">Não</string>
+    <string name="yes">Sim</string>
+    <string name="auth_fail">Autenticação falhou</string>
+    <string name="incorret_data">Por favor insira a informação correta</string>
+    <string name="close_game">Fechar o jogo</string>
+    <string name="ask_save">Tem a certeza que prentende fechar este jogo?</string>
+    <string name="game_saved">Jogo salvo!</string>
+    <string name="end_game">Pare o jogo ou espere até ao fim!</string>
+    <string name="stop_game">Parar o jogo</string>
+    <string name="save">Salvar</string>
+    <string name="sound">Som</string>
+    <string name="save_game">Salvar o jogo</string>
+    <string name="away_goal">Fora golo</string>
+    <string name="home_goal">Casa golo</string>
+    <string name="moment">Livre do Tiago</string>
+    <string name="moment_lb">Momento do jogo</string>
+    <string name="first_half">Local</string>
+    <string name="date">Data</string>
+    <string name="start_stop">Vá para o menu e selecione Novo jogo. Em seguida, escolha as especificações do seu jogo e está pronto para começar. Após o jogo você pode tirar uma foto e salvar o jogo! Se você quiser parar o jogo, basta clicar no botão de menu disponível durante o jogo e terminá-lo mais cedo (não será salvo).</string>
+    <string name="previous_games">Vá para o menu e selecione Histórico lá você verá todos os seus jogos anteriores salvos e poderá lembrar a pontuação ou os momentos engraçados!</string>
+    <string name="home_team">Casa</string>
+    <string name="away_team">Forasteira</string>
+    <string name="about">Sobre</string>
+</resources>

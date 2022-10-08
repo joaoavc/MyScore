@@ -1,0 +1,218 @@
+<layout xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools ="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="763dp"
+        android:background="@color/white"
+        android:clipToPadding="false">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="29dp"
+            app:layout_constraintBottom_toTopOf="@+id/game_now"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/main_toolbar"
+                layout="@layout/toolbar_home_no_title" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/game_now"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="51dp"
+            android:fontFamily="@font/gravitas_one"
+            android:text="@string/game"
+            android:textColor="@color/dark_blue"
+            android:textSize="50sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="365dp"
+            android:layout_height="561dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/game_now">
+
+            <Chronometer
+                android:id="@+id/simpleChronometer"
+                android:layout_width="116dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/contrail_one"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="35sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <TextView
+                android:id="@+id/game_half"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/contrail_one"
+                android:gravity="center"
+                android:text="@string/first_half"
+                android:textAllCaps="true"
+                android:textSize="34sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/game_home_team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/home_team"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/vs_game"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/dark_blue"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/vs"
+                    android:textColor="@color/white"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/game_away_team"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/away_team"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/home_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/zero"
+                    android:textSize="34sp"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/away_score"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/zero"
+                    android:textSize="34sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/home_sub_goal"
+                    android:layout_width="75sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/sub_goal" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/home_add_goal"
+                    android:layout_width="75sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/add_goal" />
+
+                <Space
+                    android:layout_width="67dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/away_sub_goal"
+                    android:layout_width="75sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/sub_goal" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/away_add_goal"
+                    android:layout_width="75sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/add_goal" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
+
+            <ImageView
+                android:id="@+id/ball_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ball3_c2" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout >

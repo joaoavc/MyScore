@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MyScore</string>
+    <string name="about" translatable="false">About</string>
+    <string name="register">Register</string>
+    <string name="author" translatable="false">João Cabral</string>
+    <string name="my_mail" translatable="false">joao.cabral_3@hotmail.com</string>
+    <string name="new_game">New Game</string>
+    <string name="home_team">Home Team</string>
+    <string name="away_team">Away Team</string>
+    <string name="location">Location</string>
+    <string name="time_str">Time</string>
+    <string name="menu" translatable="false">Menu</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="historic">Historic</string>
+    <string name="mail" translatable="false">Email</string>
+    <string name="password">Password</string>
+    <string name="login" translatable="false">Log In</string>
+    <string name="not_member">New user? Sing Up</string>
+    <string name="member">Already a user? Log In</string>
+    <string name="signin" translatable="false">Sign In</string>
+    <string name="how_start_stop">How to start and stop a game?</string>
+    <string name="start_stop">Go to the menu and select New Game. Then choose the specifications of your game and your are ready to start. After the game you can take a picture and save the game! If you want to stop the game you just have to click on the menu button available during the game and finish it earlier (It won´t be saved).</string>
+    <string name="how_previous_games">How to check previous games?</string>
+    <string name="previous_games">Go to the menu and select Historic there you will see all your previous, saved games, and you can remember the score or the funny moments!</string>
+    <string name="how_premium_version">Premium version?</string>
+    <string name="game">Game</string>
+    <string name="vs" translatable="false">VS</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="zero" translatable="false">0</string>
+
+    <string name="ex_date" translatable="false">18 october 2021</string>
+    <string name="date">Date</string>
+    <string name="mvp" translatable="false">MVP</string>
+    <string name="mvp_ex" translatable="false">Filipe Teixeira</string>
+    <string name="location_ex" translatable="false">Reis Silveira</string>
+    <string name="time" translatable="false">11:11</string>
+    <string name="first_half">Location</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="minus" translatable="false">-</string>
+    <string name="moment_lb">Moment of the Game</string>
+    <string name="moment">Tiago´s freekick!</string>
+    <string name="home_goal">Home Goal</string>
+    <string name="away_goal">Away Goal</string>
+    <string name="save_game">Save Game</string>
+    <string name="premium" translatable="false">Premium</string>
+    <string name="sound">Sound</string>
+    <string name="save">Save</string>
+    <string name="stop_game">Stop Game</string>
+    <string name="end_game">Stop the game or wait till the end!</string>
+    <string name="game_saved">Game saved!</string>
+    <string name="ask_save">Are you sure you want to close this game without saving it? You will lose it!</string>
+    <string name="close_game">Closing game</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="auth_fail">Authentication failed.</string>
+    <string name="incorret_data">Please add the correct data.</string>
+    <string name="add_goal">+ Goal</string>
+    <string name="sub_goal">- Goal</string>
+</resources>

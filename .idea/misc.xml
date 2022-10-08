@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_game.xml" value="0.2" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_help.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_list_old_games.xml" value="0.2" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_new_game.xml" value="0.264" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_old_game.xml" value="0.264" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_register.xml" value="0.2210144927536232" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_save_game.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_settings.xml" value="0.2210144927536232" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/activity_sign_in.xml" value="0.2164855072463768" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/toolbar_home.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/layout/toolbar_home_no_title.xml" value="0.2210144927536232" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/menu/game_menu.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_play.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_play_round.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_player.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Projeto/MyScore/app/src/main/res/mipmap-anydpi-v26/ic_player_round.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.116" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/drawable/ic_arrow.xml" value="0.116" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/drawable/scrollbar.xml" value="0.117" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/layout/item_pokemon.xml" value="0.25" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/layout/toolbar_home.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Fac/6_sem/DAM/Tutoriais/Tutorial4/Pokedex_/app/src/main/res/mipmap-anydpi-v26/ic_pkd.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

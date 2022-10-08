@@ -1,0 +1,239 @@
+<layout xmlns:android ="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools ="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="669dp"
+        android:background="@color/white"
+        android:clipToPadding="false">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@+id/new_game"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <include
+                android:id="@+id/main_toolbar"
+                layout="@layout/toolbar_home_no_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+        <TextView
+            android:id="@+id/new_game"
+            android:layout_width="269dp"
+            android:layout_height="167dp"
+            android:layout_marginEnd="24dp"
+            android:background="#FFFFFF"
+            android:fontFamily="@font/gravitas_one"
+            android:text="@string/new_game"
+            android:textColor="@color/dark_blue"
+            android:textSize="60sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="@+id/appBarLayout"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout" />
+
+        <TableLayout
+            android:id="@+id/tableLayout2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="38dp"
+            android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/home_team_lb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/home_team"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/home_team_et"
+                    android:layout_width="139dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/slight_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:hint="@string/home_team"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </TableRow>
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="15dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/away_team_lb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/away_team"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/away_team_et"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/slight_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:hint="@string/away_team"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </TableRow>
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="15dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/half_time_lb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/time_str"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/time_et"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/slight_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:hint="@string/time_str"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </TableRow>
+
+            <Space
+                android:layout_width="35dp"
+                android:layout_height="15dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/location_lb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:text="@string/location"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/location_et"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/slight_purple"
+                    android:fontFamily="@font/contrail_one"
+                    android:gravity="center"
+                    android:hint="@string/location"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </TableRow>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="37dp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/ball_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/dark_blue"
+                    android:text="@string/game"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="129dp"
+            android:layout_height="114dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/new_game"
+            app:srcCompat="@drawable/playerfoot" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout >

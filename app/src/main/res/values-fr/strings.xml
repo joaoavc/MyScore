@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyScore</string>
+    <string name="register">S\'inscrire</string>
+    <string name="new_game">Neuf jeu</string>
+    <string name="location">Emplacement</string>
+    <string name="time_str">Temps</string>
+    <string name="help">Aider</string>
+    <string name="settings">Réglages</string>
+    <string name="historic">Historique</string>
+    <string name="password">Mot de passe</string>
+    <string name="not_member">Nouvel utilisateur? S\'inscrire</string>
+    <string name="member">Déjà utilisateur ? Connexion</string>
+    <string name="how_start_stop">Comment démarrer et arrêter un jeu ?</string>
+    <string name="how_previous_games">Comment vérifier les jeux précédents?</string>
+    <string name="game">Jeu</string>
+    <string name="how_premium_version">Version premium ?</string>
+    <string name="add_goal">+ Gol</string>
+    <string name="sub_goal">- Gol</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="auth_fail">Authentification échouée.</string>
+    <string name="previous_games">Allez dans le menu et sélectionnez Historique, vous y verrez toutes vos parties sauvegardées précédentes et vous pourrez vous souvenir du score ou des moments amusants !</string>
+    <string name="start_stop">Allez dans le menu et sélectionnez Nouveau jeu. Choisissez ensuite les spécifications de votre jeu et vous êtes prêt à commencer. Après le jeu, vous pouvez prendre une photo et sauvegarder le jeu ! Si vous souhaitez arrêter le jeu, il vous suffit de cliquer sur le bouton de menu disponible pendant le jeu et de le terminer plus tôt (il ne sera pas enregistré).</string>
+    <string name="away_team">Extérieure</string>
+    <string name="home_team">à Domicile</string>
+    <string name="date">Date</string>
+    <string name="incorret_data">Veuillez ajouter les données correctes.</string>
+    <string name="close_game">Jeu de clôture</string>
+    <string name="ask_save">Voulez-vous vraiment fermer ce jeu sans l\'enregistrer ? Vous le perdrez !</string>
+    <string name="game_saved">Jeu sauvé !</string>
+    <string name="end_game">Arrêtez le jeu ou attendez la fin !</string>
+    <string name="stop_game">Arrêter le jeu</string>
+    <string name="save">Sauvegarder</string>
+    <string name="sound">Somme</string>
+    <string name="save_game">Enregistrer</string>
+    <string name="away_goal">But à l\'extérieur</string>
+    <string name="home_goal">But à domicile</string>
+    <string name="moment">Le coup franc de Tiago!</string>
+    <string name="moment_lb">Moment du jeu</string>
+    <string name="first_half">Emplacement</string>
+    <string name="about">Sur</string>
+</resources>
